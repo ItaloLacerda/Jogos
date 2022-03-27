@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Velha</title>
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <div class="conteiner">
+
+        <h1>Jogo Da Velha</h1>
+        <div class="
+        square-container">
+        
+            <div id="1" class="square"onclick="escolherQuadrado(this.id)">-</div>
+            <div id="2" class="square" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="3" class="square" onclick="escolherQuadrado(this.id)">-</div>
+        
+            
+        </div>
+        <div class="
+        square-container">
+        
+            <div id="4" class="square" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="5" class="square" onclick="escolherQuadrado(this.id)" >-</div>
+            <div id="6" class="square" onclick="escolherQuadrado(this.id)">-</div>
+        
+            
+        </div>
+        <div class="
+        square-container">
+        
+            <div id="7" class="square" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="8" class="square" onclick="escolherQuadrado(this.id)">-</div>
+            <div id="9" class="square" onclick="escolherQuadrado(this.id)">-</div>
+        
+        </div>
+    
+        <div class="player">
+            <label for="">Jogador:</label>
+            <label id="Jogador-Atual"></label>
+        </div>
+        
+        <div class="winner">
+            <label for="">Vencedor:</label>
+            <label id="Vencedor"></label>
+        </div>
+        <div>
+            <button onclick="reiniciar()">Reiniciar</button>
+        </div>
+        
+    </div>
+    
+    <script src="src/index.js"></script>
+</body>
+</html>

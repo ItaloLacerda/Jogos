@@ -1,0 +1,55 @@
+body {
+    background-color: dimgrey;
+    transition: 2s;
+}
+
+body .conteiner {
+    text-align: center;
+}
+
+.square {
+    text-align: center;
+    font-size: 60px;
+    
+    border: 2px solid #000000;
+    color: #f0f8ff;
+    background: aliceblue;
+    display: inline-block;
+    width: 50px;
+    padding: 40px;
+    margin: 5px;
+    
+    cursor: pointer;
+
+
+}
+
+.square:hover{
+    background-color: black;
+    transition: 1s;
+    color: rgb(52, 57, 61);
+    
+}
+
+label{
+    font-size: 30px;
+    
+    color: antiquewhite;
+}
+
+button {
+    padding: 1.5% 5% 1.5% 5%;
+    background-color: black;
+    border: 2.5px solid black;
+    color: antiquewhite;
+    font-size: 110%;
+    cursor: pointer;
+    margin-top: 5px;
+    
+    
+    
+}
+button:hover{
+    background-color: transparent;
+    transition: 0.5s;
+}
