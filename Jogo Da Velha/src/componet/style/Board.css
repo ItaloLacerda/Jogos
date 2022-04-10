@@ -1,0 +1,54 @@
+
+.board,
+.info{
+
+    text-align: center;
+}
+
+.board {
+    margin-top: 30px;    
+    background-color: rgb(78, 125, 91);
+}
+
+
+    
+.style {
+    font-size: 100px;
+    
+    border: 2px solid #000000;
+    background: #f0f8ff;
+    color: transparent;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+
+    cursor: pointer;
+
+
+    
+    
+}
+
+
+
+
+.O,
+.X {
+    font-size: 100px;
+    
+    border: 2px solid #000000;
+    background: #f0f8ff;
+    color: #000000;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+
+    cursor: pointer;
+}
+
+
+
+
+
